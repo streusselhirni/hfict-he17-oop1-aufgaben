@@ -5,7 +5,12 @@ using namespace std;
 
 int main() {
     // Aufgabe 2.1
-    double a, b, c, d, e, f;
+    double a = =;
+    double b = 0;
+    double c = 0;
+    double d = 0;
+    double e = 0;
+    double f = 0;
     a = 5.3;
     b = 4.2;
     cout << "Zahl 1: " << a << "\nZahl 2: " << b << endl << endl;
@@ -18,18 +23,24 @@ int main() {
     f = a / b;
     cout << "Ergebnis Division: " << f << endl;
 
-    // Aufgabe 2.2
     cout << "\n\n";
-    double eingabe;
+    // Aufgabe 2.2
+    int eingabe;
     cout << "Gib eine Zahl ein: ";
     cin >> eingabe;
-    double ausgabe = eingabe;
+    double ausgabe = (double)eingabe;
     cout << "Ihre Eingabe: " << ausgabe << endl;
 
     // Aufgabe 2.3
-    const double pi = 3.1516926;
+    double       r1      = 0;
+    double       h1      = 0;
+    double       V1      = 0;
+    double       r2      = 0;
+    double       h2      = 0;
+    double       V2      = 0;
+    double       schnitt = 0;
+    const double pi      = 3.1516926;
     cout << "\n\n";
-    double r1, h1, V1, r2, h2, V2, schnitt;
     cout << "Gibt den Radius ein: ";
     cin >> r1;
     cout << "Gib die Höhe ein: ";
