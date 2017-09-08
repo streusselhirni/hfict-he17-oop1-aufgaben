@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{struktex}
+
+\begin{document}
+
+\begin{struktogramm}(100,100)
+    \sProofOn
+    \assign{Zahl eingeben}
+    \ifthenelse{3}{4}{Zahl gerade?}{Ja}{Nein}
+        \assign{Ausgabe "Die Zahl ist gerade"}
+        \change
+        \assign{Ausgabe "Die Zahl ist ungerade}
+        \ifthenelse{1}{1}{Zahl kleiner als 0?}{Ja}{Nein}
+            \assign{Ausgabe "Die Zahl ist kleiner 0"}
+            \change
+            \assign{Ausgabe "Die Zahl ist größer/gleich 0}
+        \ifend
+    \ifend
+\end{struktogramm}
+
+\begin{struktogramm}(100,50)
+    \assign{Zahl eingeben}
+    \case{12}{2}{Zahl gerade}{Ja}
+        \assign{Ausgabe "Die Zahl ist gerade"}
+    \switch{Nein}
+        \assign{Ausgabe "Die Zahl ist ungerade}
+        \case{4}{2}{Zahl kleiner 0?}{Ja}
+            \assign{Ausgabe "Die Zahl ist kleiner 0"}
+        \switch{Nein}
+            \assign{Ausgabe "Die Zahl ist größer/gleich 0}
+        \caseend
+    \caseend
+\end{struktogramm}
+
+\newpage
+
+\begin{struktogramm}(100,50)
+    \assign{Basis $b$ eingeben}
+    \assign{Exponent $e$ eingeben}
+    \assign{Rechne $b^e$ und speichere Ergebnis}
+    \assign{Gib Ergebnis aus}
+\end{struktogramm}
+
+\end{document}
