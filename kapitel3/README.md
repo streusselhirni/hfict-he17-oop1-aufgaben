@@ -1,11 +1,11 @@
-##3.1 Drei Additionen
+## 3.1 Drei Additionen
 Ihre Aufgabe: Schreiben Sie ein Pogramm, welches die Variable x mit dem Wert 1 addiert.
 
 Bedingung: Verwenden Sie für die Addition drei verschiedene Operatoren.
 
 Das Ziel: Unterschiedliche Operatoren kennen lernen.
 
-##3.2 Inkrementierung
+## 3.2 Inkrementierung
 Ihre Aufgabe: Welchen Wert gibt folgendes Programm aus?
 
     1 a=12;
@@ -17,7 +17,7 @@ Bedingung: Überlegen Sie sich, welchen Wert die Variable a am Schluss enthält.
 
 Das Ziel: Inkrementieren mit der Post- und Präfixversion kennen lernen.
 
-##3.3 sizeof
+## 3.3 sizeof
 Ihre Aufgabe: Schreiben Sie ein Programm, welches das Speichervolumen folgender Datentypen in Byte ausgibt:
 
 * int
