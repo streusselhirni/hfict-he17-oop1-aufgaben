@@ -17,7 +17,13 @@ int a31() {
 int a32() {
     int a;
     a = 12;
-    a += ++a + a++; // a = 12 + 12 + 13 + 13 + 40
+    a += ++a + a++;
+    /* a   = a + ++a + a++
+     * Prio: 2    1     3
+     * a = a + 13 + a++
+     * a = (13 + 13 + 13)++ (a wird wegen a++ noch um eins erhöht)
+     * a = 39 + 1 = 40
+     */
     a = a + a; // a = 40 + 40
     return a;
 }
