@@ -1,6 +1,8 @@
 .DS_Store
 .idea
 cmake-build-debug
-.aux
-.log
-.synctex.gz
+
+*.aux
+*.log
+*.synctex.gz
+*.gz
