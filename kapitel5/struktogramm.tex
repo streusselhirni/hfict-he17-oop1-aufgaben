@@ -5,6 +5,8 @@
 
 \begin{document}
 
+\section{Aufgabe 5.1}
+
 \begin{struktogramm}(100,100)
     \sProofOn
     \assign{Zahl eingeben}
@@ -36,11 +38,39 @@
 
 \newpage
 
+\section{Aufgabe 5.2}
+\subsection{Mit For Schleife}
 \begin{struktogramm}(100,50)
     \assign{Basis $b$ eingeben}
     \assign{Exponent $e$ eingeben}
-    \assign{Rechne $b^e$ und speichere Ergebnis}
-    \assign{Gib Ergebnis aus}
+    \assign{$x$ mit Wert von $b$ initialisieren}
+    \while{int i = 1; i < e; ++i}
+        \assign{$x = x \times b$}
+    \whileend
+    \assign{$b^e = x$}
 \end{struktogramm}
 
+\subsection{Mit While Schleife}
+\begin{struktogramm}(100,50)
+    \assign{Basis $b$ eingeben}
+    \assign{Exponent $e$ eingeben}
+    \assign{$x$ mit Wert von $b$ initialisieren}
+    \assign{Zählvariable $x = 1$ initialisieren.}
+    \while{Solange $i < e$}
+        \assign{$x = x \times b$}
+        \assign{$++i$}
+    \whileend
+\assign{$b^e = x$}
+\end{struktogramm}
+
+\subsection{Mit DoWhile Schleife}
+\begin{struktogramm}(100,50)
+    \assign{Basis $b$ eingeben}
+    \assign{Exponent $e$ eingeben}
+    \assign{$x$ mit Wert von $b$ initialisieren}
+    \until{int i = 1; i < e; ++i}
+        \assign{$x = x \times b$}
+    \untilend
+    \assign{$b^e = x$}
+\end{struktogramm}
 \end{document}

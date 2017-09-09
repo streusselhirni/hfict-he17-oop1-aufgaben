@@ -15,8 +15,7 @@ int a31() {
 
 // Aufgabe 3.2 als Funktion
 int a32() {
-    int a;
-    a = 12;
+    int a = 12;
     a += ++a + a++;
     /* a   = a + ++a + a++
      * Prio: 2    1     3
