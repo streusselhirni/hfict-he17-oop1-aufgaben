@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// Aufgabe 3.1 als Funktion
 int a31() {
     int x;
     x = 1;
@@ -12,6 +13,7 @@ int a31() {
     return x;
 }
 
+// Aufgabe 3.2 als Funktion
 int a32() {
     int a;
     a = 12;
@@ -20,6 +22,7 @@ int a32() {
     return a;
 }
 
+// Aufgabe 3.3 als Funktion
 void a33() {
     int a = sizeof(int);
     int b = sizeof(double);
@@ -35,6 +38,7 @@ void a33() {
     cout << "bool: " << sizeof(bool) << endl;
 }
 
+// Main ruft die Funktionen der Aufgaben 3.1 - 3.3 der Reihe nach auf.
 int main() {
     cout << "Aufgabe 3.1" << endl;
     cout << a31() << endl << endl;

@@ -54,9 +54,10 @@ void switchUebung() {
     }
 }
 
+// main() ruft alle Übungen der Reihe nach auf.
 int main() {
-//    freierFall();
-//    ifelseUebung();
+    freierFall();
+    ifelseUebung();
     switchUebung();
     return 0;
 }
