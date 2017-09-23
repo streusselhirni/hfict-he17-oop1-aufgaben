@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
 
     F = static_cast<double>(f * (m1 * m2) / (r * r));
 
-    std::cout << "F = " << F << std::endl;
+    std::cout << "F = " << F << std::endl << std::endl;
 
 
     // Aufgabe 6.2
@@ -32,9 +32,24 @@ int main(int argc, char *argv[]) {
     std::cout << "Schrittweite = ";
     std::cin >> w;
 
-    // Achtung! Endlosschleife!
     while (s <= e) {
-        std::cout << s << "/t";
-        s =+ w;
+        std::cout << s << "\t";
+        s += w;
     }
+
+    std::cout << std::endl << std::endl;
+
+
+    // Auggabe 6.2 Zusatz
+    std::cout << "Startwert = ";
+    std::cin >> s;
+    std::cout << "Endwert = ";
+    std::cin >> e;
+    std::cout << "Schrittweite = ";
+    std::cin >> w;
+
+    for (double i = s; i <= e; i += w) {
+        std::cout << i << "\t";
+    }
+    std::cout << std::endl;
 }
