@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{struktex}
+\begin{document}
+    \section{Aufgabe 7.1}
+    \begin{struktogramm}(150,50)
+        \assign{Zählvariable $i = 0, j = 0$ initialisieren}
+        \while{Solange $i < 4$ ist}
+            \while{Solange $j < i$ ist}
+                \assign{Gib $+$ aus}
+                \assign{Erhöhe $j$ um 1}
+            \whileend
+            \assign{Erhöhe $i$ um 1}
+        \whileend
+    \end{struktogramm}
+
+    \begin{struktogramm}(150,50)
+        \assign{1. Operand einlesen}
+        \assign{2. Operand einlesen}
+        \assign{Operator einlesen}
+        \assign{Operator prüfen}
+        \case{8}{5}{Operator = ?}{+}
+                \assign{Addition}
+            \switch{-}
+                \assign{Subraktion}
+            \switch{\*}
+                \assign{Multiplikation}
+            \switch{/}
+                \assign{Division}
+            \switch{\%}
+                \assign{Modulo}
+        \caseend
+        \assign{Ergebnis ausgeben}
+    \end{struktogramm}
+\end{document}
