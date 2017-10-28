@@ -25,8 +25,8 @@ jeweils 2 Zahlen und einer der vier Grundoperatoren (+, −, ∗, /)
 einliest und das Resultat auf dem Bildschirm ausgibt.
 
 Eingabedaten:
-* 1. Operand = 12
-* 2. Operand = 45
+* 1.Operand = 12
+* 2.Operand = 45
 * Operator = ∗
 * Abbruchbedingung
 

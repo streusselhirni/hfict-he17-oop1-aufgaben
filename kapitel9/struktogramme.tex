@@ -1,0 +1,27 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{struktex}
+
+\begin{document}
+
+\section{Aufgabe 9.1}
+\centering
+
+    \begin{struktogramm}(100,50)[NumTest]
+        \case{3}{3}{Zahl größer als $0$}{Ja}
+            \assign{\texttt{Return $1$}}
+        \switch{Zahl gleich $0$}
+            \assign{\texttt{Return $0$}}
+        \switch{Zahl kleiner $0$}
+            \assign{\texttt{Return $-1$}}
+        \caseend
+    \end{struktogramm}
+
+    \begin{struktogramm}(100,50)[Aufgabe 9.1]
+        \assign{Lies eine Zahl ein}
+        \sub{\texttt{NumTest} mit eingelesener Zahl}
+        \assign{Gebe Rückgabewert von \texttt{NumTest} aus}
+    \end{struktogramm}
+
+\end{document}
