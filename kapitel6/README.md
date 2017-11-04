@@ -40,3 +40,5 @@ Zeichnen Sie zuerst ein Struktogramm des Programms.
 Bedingung: Schreiben Sie das Programm mit einer while Schleife.
 Zusatz: Schreiben Sie das gleiche Programm mit einer for Schleife.
 Das Ziel: Schleifen kennen lernen.
+
+[Hier geht es weiter mit Kapitel 7.](https://github.com/streusselhirni/hfict-he17-oop1-aufgaben/tree/master/kapitel7)
