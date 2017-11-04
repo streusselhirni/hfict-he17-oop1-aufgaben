@@ -28,3 +28,5 @@ Falls die Zahl ungerade ist, müssen Sie zusätzlich überprüfen ob die Zahl kl
 Bedingung: Verwenden Sie eine Zahl vom Typ Integer.
 
 Zusatz: Schreiben Sie das gleiche Programm mit einer switch Anweisung. Das Ziel: Abfragen kennen lernen.
+
+Hier geht es weiter zu [Kapitel 5}(https://github.com/streusselhirni/hfict-he17-oop1-aufgaben/tree/master/kapitel5).
