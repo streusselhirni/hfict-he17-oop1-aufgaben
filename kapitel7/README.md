@@ -44,3 +44,5 @@ Zusatz: Integrieren Sie zusa ̈tzlich die Modulofunktion (%) in das
 Programm.
 
 Das Ziel: Schleifen und Abfragen kennen lernen.
+
+[Hier geht es weiter mit Kapitel 8.](https://github.com/streusselhirni/hfict-he17-oop1-aufgaben/tree/master/kapitel8)
