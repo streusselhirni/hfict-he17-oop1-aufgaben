@@ -24,3 +24,5 @@ Zusatz:
 * Schreiben Sie das gleiche Programm mit einer do/while Schleife.
 
 Das Ziel: Die Schleifen kennen lernen.
+
+[Hier geht es weiter mit Kapitel 6.](https://github.com/streusselhirni/hfict-he17-oop1-aufgaben/tree/master/kapitel6)
