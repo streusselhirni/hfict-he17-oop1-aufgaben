@@ -28,3 +28,5 @@ Bedingung: π (Pi) muss als Konstante deklariert werden.
 Zusatz: Das Programm soll die Daten eines zweiten Zylinders einlesen und das Durch- schnittsvolumen der beiden Zylinder berechnen und auf dem Bildschirm ausgeben.
 
 Das Ziel: Die Anwendung von Formeln kennen lernen.
+
+Hier geht es weiter mit [Kapitel 3](https://github.com/streusselhirni/hfict-he17-oop1-aufgaben/tree/master/kapitel3).
