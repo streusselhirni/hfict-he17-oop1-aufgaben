@@ -16,4 +16,4 @@ Das Ziel: Die Dokumentation von Kode-Zeilen kennen lernen.
 
 Quelle: Aufgaben-Skript von Markus Jetzer
 
-Hier geht es weiter mit [Kapitel 1](https://github.com/streusselhirni/hfict-he17-oop1-aufgaben/tree/master/kapitel2).
+Hier geht es weiter mit [Kapitel 2](https://github.com/streusselhirni/hfict-he17-oop1-aufgaben/tree/master/kapitel2).
