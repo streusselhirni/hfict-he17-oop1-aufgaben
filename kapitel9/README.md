@@ -9,7 +9,7 @@ Folgende Möglichkeiten müssen berücksichtigt werden:
 * Wenn Sie der Funktion einen neutralen Wert übergeben, muss sie den Wert 0 zurückgeben.
 * Wenn Sie der Funktion einen positiven Wert übergeben, muss sie den Wert 1 zurückgeben.
 
-Zeichnen Sie zuerst ein Struktogramm des Programms.
+Zeichnen Sie zuerst ein [Struktogramm](https://github.com/streusselhirni/hfict-he17-oop1-aufgaben/tree/master/kapitel0/out/struktogramme.pdf) des Programms.
 
 Ihre Aufgabe: Schreiben Sie ein komplettes Programm, welches eine Zahl einliest und der Funktion übergibt. Der Rückgabewert und ein kurzer Text müssen dem Benutzer sichtbar gemacht werden.
 
@@ -29,3 +29,5 @@ Ihre Aufgabe: Schreiben Sie ein komplettes Programm, welches die sum() Funktion 
 Bedingung: Verwenden Sie Integer Werte. 
 
 Das Ziel: Funktionen kennen lernen.
+
+[Hier geht es weiter mit Kapitel 10.](https://github.com/streusselhirni/hfict-he17-oop1-aufgaben/tree/master/kapitel10)
