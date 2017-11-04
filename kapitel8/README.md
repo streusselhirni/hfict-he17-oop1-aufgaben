@@ -20,3 +20,5 @@ Bildschirmausgabe:
 Zeichnen Sie zuerst ein Struktogramm des Programms.
 
 Das Ziel: Funktionen kennen lernen.
+
+[Hier geht es weiter mit Kapitel 9.](https://github.com/streusselhirni/hfict-he17-oop1-aufgaben/tree/master/kapitel9)
