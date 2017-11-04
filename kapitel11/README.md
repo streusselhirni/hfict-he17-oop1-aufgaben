@@ -18,7 +18,7 @@ Ausgabe:
 Die Zahlen müssen vom Benutzer eingegeben und vom Programm wieder
 ausgegeben werden.
 
-Zeichnen Sie zuerst ein Struktogramm des Programms.
+Zeichnen Sie zuerst ein [Struktogramm](https://github.com/streusselhirni/hfict-he17-oop1-aufgaben/tree/master/kapitel11/out/struktogramm.pdf) des Programms.
 
 Bedingung: Verwenden Sie einen Array vom Typ double mit vier
 Speicherstellen. Die Ein- und Ausgabe muss in einer Schleife erfolgen.
@@ -45,8 +45,9 @@ a[0] = 99
 a[1] = 11
 ```
 
-Zeichnen Sie zuerst ein Struktogramm des Programms.
+Zeichnen Sie zuerst ein [Struktogramm](https://github.com/streusselhirni/hfict-he17-oop1-aufgaben/tree/master/kapitel11/out/struktogramm.pdf) des Programms.
 
 Bedingung: Die Funktion soll void an den Aufrufer zurückgeben.
 
+[Hier geht es weiter mit Kapitel 12.](https://github.com/streusselhirni/hfict-he17-oop1-aufgaben/tree/master/kapitel12)
 Das Ziel: Kombination von Arrays mit Funktionen kennen lernen.
