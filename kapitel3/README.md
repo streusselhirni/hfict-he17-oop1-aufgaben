@@ -30,3 +30,5 @@ Ihre Aufgabe: Schreiben Sie ein Programm, welches das Speichervolumen folgender 
 Verwenden Sie den Datentypnamen für drei Ausgaben Ihrer Wahl. Erzeugen Sie für die restlichen Punkte je eine Variable, welche Sie fu ̈r die Ausgabe des Wertes einsetzen.
 
 Das Ziel: Datentypen und die Funktion sizeof() kennen lernen.
+
+Hier geht es weiter mit [Kapitel 4](https://github.com/streusselhirni/hfict-he17-oop1-aufgaben/tree/master/kapitel4).
