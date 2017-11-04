@@ -21,7 +21,7 @@ Die Funktionen soll folgende Ausgaben erzeugen:
 
 `Es wurde eine double Variable eingegeben`
 
-Zeichnen Sie zuerst ein Struktogramm des Programms.
+Zeichnen Sie zuerst ein [Struktogramm](https://github.com/streusselhirni/hfict-he17-oop1-aufgaben/tree/master/kapitel10/out/struk.pdf) des Programms.
 
 Bedingung: Programmieren Sie eine überladene Funktion, welche drei verschiedene
 Implementierungen enthält.
@@ -41,3 +41,5 @@ muss der Wert der static Variable in der main-Funktion ausgegeben werden.
 (Eine Kopie der Variable)
 
 Das Ziel: static kennen lernen. Repetition von Funktionen und Schleifen.
+
+[Hier geht es weiter mit Kapitel 11.](https://github.com/streusselhirni/hfict-he17-oop1-aufgaben/tree/master/kapitel11)
