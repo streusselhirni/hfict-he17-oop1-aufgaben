@@ -1,4 +1,4 @@
-#Aufgabe 1
+# Aufgabe 1
 
 ## 1.3 Hello World!
 Die meisten Programmierkurse beginnen mit dem ”Hello World!” Programm. Deshalb werden wir uns auch an dieses ungeschriebene Gesetz halten.
@@ -15,3 +15,5 @@ Ihre Aufgabe: Dokumentieren Sie den Kode der Aufgabe 1.3 aus. Schreiben Sie die 
 Das Ziel: Die Dokumentation von Kode-Zeilen kennen lernen.
 
 Quelle: Aufgaben-Skript von Markus Jetzer
+
+Hier geht es weiter mit (Kapitel 1)[https://github.com/streusselhirni/hfict-he17-oop1-aufgaben/tree/master/kapitel2].
