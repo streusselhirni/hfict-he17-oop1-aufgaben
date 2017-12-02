@@ -1,0 +1,28 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{struktex}
+\begin{document}
+
+\section{Aufgabe 13}
+
+\begin{struktogramm}(100,50)[Aufgabe 13.1]
+    \while{100 Mal}
+        \while{5 Mal fallen}
+            \assign{Generiere Zufallszahl zwischen 0 und 1}
+            \assign{Wenn 0 -> Eins erhöhe "`Rechtszähler"'.}
+        \whileend
+        \assign{Zähle Anzahl Rechts und erhöhe passendes Fach um 1.}
+    \whileend
+\end{struktogramm}
+
+\begin{struktogramm}(100,50)[Aufgabe 13.2 (Fakultätsfunktion)]
+    \assign{Initialisiere Zählvariable mit Benutzereingabe.}
+    \assign{Initialisiere Ergebnisvariable mit 1.}
+    \while{Zählvariable nicht null}
+        \assign{Multipliziere bisheriges Ergebnis mit aktueller Zählvariable.}
+        \assign{Reduziere Zählvariable um 1.}
+    \whileend
+\end{struktogramm}
+
+\end{document}

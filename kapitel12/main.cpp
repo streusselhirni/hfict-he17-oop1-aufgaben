@@ -4,6 +4,8 @@
 
 unsigned long int zaehlen(std::string s);
 
+unsigned int c_zaehlen(const char array[]);
+
 std::vector<char> crypt(std::vector<char> w, int s);
 
 int main() {
@@ -14,6 +16,7 @@ int main() {
     std::string       s("");
     std::string       tmp_s;
     int               schluessel(0);
+    char              char_string[1000];
     std::vector<char> a_word;
     std::vector<char> crypted;
 
@@ -30,10 +33,17 @@ int main() {
     std::cout << "\n";
     std::cout << "\n";
 
-    // Aufgabe 12.2
+    // Aufgabe 12.2 - Einfach Zählen mit String-Funktion
     std::cout << "Geben Sie einen weiteren String ein: ";
     std::getline(std::cin, s);
-    std::cout << zaehlen(s);
+    std::cout << zaehlen(s) << std::endl;
+
+
+    // Aufgabe 12.2 - Einfach Zählen mit Char-Array
+    std::cout << "Geben Sie einen weiteren String (Char-Array) ein: ";
+    std::cin.getline(char_string, 1000);
+    std::cout << c_zaehlen(char_string) << std::endl;
+
 
     std::cout << "\n";
     std::cout << "\n";
@@ -61,9 +71,26 @@ int main() {
     return 0;
 }
 
-// Funktion für Aufgabe 12.2
+// Funktion für Aufgabe 12.2 - Mit String-Funktion
 unsigned long int zaehlen(std::string s) {
     return s.length();
+}
+
+// Funktion für Aufgabe 12.2 - Mit Char-Array
+unsigned int c_zaehlen(const char array[]) {
+    bool         run(true);
+    unsigned int i(0), c(0);
+
+    while (run) {
+        if (array[i] == '\0') {
+            run = false;
+        } else {
+            c += 1;
+        }
+        i++;
+    }
+
+    return c;
 }
 
 // Funktion für Aufgabe 12.3
