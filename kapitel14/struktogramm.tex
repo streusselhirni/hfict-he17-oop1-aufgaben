@@ -1,0 +1,21 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{struktex}
+\begin{document}
+
+\begin{struktogramm}(100,50)[Aufgabe 14.1]
+    \assign{Generiere Zufallszahl}
+    \while{6 Mal}
+        \assign{User ratet}
+        \ifthenelse{3}{3}{Richtig geraten}{Ja}{Nein}
+            \assign{Erfolgsmeldung}
+            \assign{Verlasse schleife}
+        \change
+            \assign{Falschmeldung}
+        \ifend
+    \whileend
+    \assign{Frage nach Wiederholung}
+\end{struktogramm}
+
+\end{document}
