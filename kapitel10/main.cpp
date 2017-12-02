@@ -14,14 +14,14 @@ void a101(double var) {
 }
 
 // Aufgabe 10.2
+static int x(0);
 
 int a102() {
-    static int x(0);
     return ++x;
 }
 
 int main() {
-    int    a(0), count(0);
+    int    a(0);
     double b(1.23);
     char   c('c');
 
@@ -34,10 +34,10 @@ int main() {
     std::cin >> z;
 
     for (int i(1); i <= z; i++) {
-        count = a102();
+        a102();
     }
 
-    std::cout << "Die Funktion wurde " << count << " Mal aufgerufen.";
+    std::cout << "Die Funktion wurde " << x << " Mal aufgerufen.";
 
     return 0;
 }
