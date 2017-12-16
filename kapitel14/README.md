@@ -110,4 +110,4 @@ Nehmen Sie folgende änderungen vor:
 
 Das Ziel: Den Umgang mit Arrays und Funktionen kennen lernen. Referenzen als Funkti- onsparameter kennen lernen.
 
-[Hier geht es weiter mit Kapitel 15.]([Struktogramm]https://github.com/streusselhirni/hfict-he17-oop1-aufgaben/tree/master/kapitel15)
+[Hier geht es weiter mit Kapitel 15.](https://github.com/streusselhirni/hfict-he17-oop1-aufgaben/tree/master/kapitel15)
