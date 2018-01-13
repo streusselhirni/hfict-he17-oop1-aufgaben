@@ -1,12 +1,11 @@
 #include <iostream>
-#include <string>
 #include <vector>
 
 unsigned long int zaehlen(std::string s);
 
 unsigned int c_zaehlen(const char array[]);
 
-std::vector<char> crypt(std::vector<char> w, int s);
+std::vector<char> crypt(std::vector<char> a_word, int s);
 
 int main() {
     // Variablen deklarieren
