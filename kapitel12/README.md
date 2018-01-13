@@ -64,4 +64,4 @@ Speichern des Schlüssels.
 
 Das Ziel: Funktionsaufrufe mit Adressen kennen lernen. Die ASCII Zeichen kennen lernen.
 
-[Hier geht es weiter mit Kapitel 13.]([Struktogramm]https://github.com/streusselhirni/hfict-he17-oop1-aufgaben/tree/master/kapitel13)
+[Hier geht es weiter mit Kapitel 13.](https://github.com/streusselhirni/hfict-he17-oop1-aufgaben/tree/master/kapitel13)

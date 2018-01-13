@@ -29,4 +29,4 @@ Funktion ausgelagert werden.
 
 Das Ziel: Kleine Algorithmen entwickeln lernen.
 
-[Hier geht es weiter mit Kapitel 14.]([Struktogramm]https://github.com/streusselhirni/hfict-he17-oop1-aufgaben/tree/master/kapitel14)
+[Hier geht es weiter mit Kapitel 14.](https://github.com/streusselhirni/hfict-he17-oop1-aufgaben/tree/master/kapitel14)
