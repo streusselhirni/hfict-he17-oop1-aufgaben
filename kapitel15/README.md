@@ -85,4 +85,4 @@ Vergessen Sie nicht den Speicher wieder frei zu geben.
 
 Das Ziel: Dynamische zweidimensionale Arrays kennen lernen.
 
-[Hier geht es weiter mit Kapitel 16.]([Struktogramm]https://github.com/streusselhirni/hfict-he17-oop1-aufgaben/tree/master/kapitel16)
+[Hier geht es weiter mit Kapitel 16.](https://github.com/streusselhirni/hfict-he17-oop1-aufgaben/tree/master/kapitel16)
