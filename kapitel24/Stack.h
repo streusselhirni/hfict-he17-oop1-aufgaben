@@ -8,7 +8,7 @@ public :
     ~Stack();
     bool push(const int &element);
     bool pop(int &element);
-    bool top(int &element);
+    bool top(int &element) const;
 private :
     int *_pa;
     int _top;

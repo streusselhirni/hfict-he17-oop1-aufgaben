@@ -26,7 +26,7 @@ bool Stack::pop(int &element) {
     return false;
 }
 
-bool Stack::top(int &element) {
+bool Stack::top(int &element) const {
     if (_count >= 0) {
         element = _pa[_count];
         return true;
