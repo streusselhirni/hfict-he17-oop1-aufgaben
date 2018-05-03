@@ -1,31 +1,42 @@
 #include <iostream>
 #include <random>
-#include <array>
+#include <vector>
 
 int getRand();
 
-void sort(std::array<int, 8> &arr, int size);
+void bubbleSort(std::vector<int> &arr, int size);
 
-void sortRec(std::array<int, 8> &arr, int size);
+void selectSort(std::vector<int> &arr, int size, int startPos = 0);
 
 int main() {
-    std::array<int, 8> arr = {1, 2, 3, 4, 5, 6, 7, 8};
+    std::vector<int> bubble(8, 0);
+    std::vector<int> select(8, 0);
 
-    for (auto &i : arr) {
+    for (auto &i : bubble) {
+        i = getRand();
+    }
+    for (auto &i : select) {
         i = getRand();
     }
 
-    for (auto const &i : arr) {
-        std::cout << i << std::endl;
+    std::cout << "Array-Inhalt vor Bubble:";
+    for (auto const &i : bubble) {
+        std::cout << "\t" << i;
+    }
+    bubbleSort(bubble, 8);
+    std::cout << "\nArray-Inhalt nach Bubble:";
+    for (auto const &i : bubble) {
+        std::cout << "\t" << i;
     }
 
-    std::cout << "\n\n";
-
-    sort(arr, 8);
-    //sortRec(arr, 8);
-
-    for (auto const &i : arr) {
-        std::cout << i << std::endl;
+    std::cout << "\n\nArray-Inhalt vor Select:";
+    for (auto const &i : select) {
+        std::cout << "\t" << i;
+    }
+    selectSort(select, 8);
+    std::cout << "\nArray-Inhalt nach Select:";
+    for (auto const &i : select) {
+        std::cout << "\t" << i;
     }
 
     return 0;
@@ -38,18 +49,7 @@ int getRand() {
     return dis(gen);
 }
 
-void sort(std::array<int, 8> &arr, int size) {
-
-    for (int j(size); j > 0; j--) {
-        for (int i(0); i < (j - 1); i++) {
-            if (arr.at(i) > arr.at(i + 1)) {
-                std::swap(arr.at(i), arr.at(i + 1));
-            }
-        }
-    }
-}
-
-void sortRec(std::array<int, 8> &arr, int size) {
+void bubbleSort(std::vector<int> &arr, int size) {
 
     if (size == 1) return;
 
@@ -59,5 +59,20 @@ void sortRec(std::array<int, 8> &arr, int size) {
         }
     }
 
-    sortRec(arr, --size);
+    bubbleSort(arr, --size);
+}
+
+void selectSort(std::vector<int> &arr, int size, int startPos) {
+    if (startPos == (size + 1)) return;
+    int iMin(startPos);
+
+    for (int i(iMin + 1); i < size; i++) {
+        if (arr[iMin] > arr[i]) {
+            iMin = i;
+        }
+    }
+
+    std::swap(arr[startPos], arr[iMin]);
+
+    selectSort(arr, size, ++startPos);
 }
